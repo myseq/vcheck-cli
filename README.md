@@ -11,6 +11,7 @@ For more information, see https://vulncheck.com/kev
 
 ## Installation
 
+Install and activate the virtual environment:
 ```bash
 $ git clone git@github.com:myseq/vcheck-cli.git
 $ cd vcheck-cli
@@ -42,9 +43,14 @@ options:
 
 ```
 
-To search a CVE 
+To search a CVE: 
 ```bash
 $ ./main.py -ve cve-2024-1709
+```
+
+To exit the virtual environment:
+```bash
+$ deactivate
 ```
 
 ## History
