@@ -1,4 +1,4 @@
-# README (vcehck-cli)
+# vcehck-cli
 
 A cmdline tool for [VulnCheck KEV](https://vulncheck.com/browse/kev).
 
