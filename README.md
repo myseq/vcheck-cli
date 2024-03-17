@@ -20,6 +20,29 @@ $
 $ pip install -r requirements.txt
 ```
 
+To show the simple help screen:
+```bash
+$ ./main.py -h
+usage: main.py [-h] [-e <cve> [<cve> ...]] [-v]
+
+A cmdline tool for VulnCheck KEV. (https://vulncheck.com/browse/kev)
+
+options:
+  -h, --help            show this help message and exit
+  -e <cve> [<cve> ...]  Specifying CVEs
+  -v                    verbose output
+
+        VulnCheck KEV
+
+        It is a community resource that enables security teams  to manage
+        vulnerabilities and risk with additional context and evidence-based
+        validation.
+
+        For more information, see https://vulncheck.com/kev
+
+```
+
+To search a CVE 
 ```bash
 $ ./main.py -ve cve-2024-1709
 ```
