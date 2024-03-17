@@ -15,7 +15,7 @@ Install and activate the virtual environment:
 ```bash
 $ git clone git@github.com:myseq/vcheck-cli.git
 $ cd vcheck-cli
-$ python3 -m venv .venv
+$ python3 -m venv .venvhttps://myseq.github.io/posts/python_with_try_finally/
 $ source .venv/bin/activate
 $
 $ pip install -r requirements.txt
@@ -58,4 +58,9 @@ $ deactivate
  - [ 2024.03.11 ] : Create the token.
  - [ 2024.03.16 ] : Download zip file successfully.
  - [ 2024.03.17 ] : Extract JSON and load into a list (vcdata). Search by CVE.
+
+## Links 
+
+ - MySeq [blog post](https://myseq.github.io/posts/vulncheck_kev_community/)
+
 
