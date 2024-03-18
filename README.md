@@ -9,7 +9,7 @@ validation.
 
 For more information, see https://vulncheck.com/kev
 
-## Installation
+## Installation/Setup
 
 Install and activate the virtual environment:
 ```bash
@@ -20,6 +20,18 @@ $ source .venv/bin/activate
 $
 $ pip install -r requirements.txt
 ```
+
+The VulnCheck platform uses a token system to allow access.
+You must obtain a VulnCheck API token in order to use the VulnCheck KEV service.
+
+Just following the instruction at VulnCheck to [Register for Access](https://docs.vulncheck.com/getting-started/register).
+
+Then save the token at a safe place. And follow by setup your VulnCheck token for the tool:
+```bash
+$ export VC_TOKEN="<insert your VulnCheck token here"
+```
+
+## Usage
 
 To show the simple help screen:
 ```bash
