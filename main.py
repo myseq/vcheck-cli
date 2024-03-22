@@ -149,7 +149,12 @@ def main():
     with open(latest) as jh:
         vcdata = json.load(jh)
 
+
     rprint(f' [*] {len(vcdata) = } CVEs loaded.')
+
+    if not args.cve:
+        return
+
     print(f'')
     rprint(f' [*] Searching [ {cve_list = } ] ....')
 
